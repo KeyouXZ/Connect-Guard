@@ -3,8 +3,6 @@ using TShockAPI;
 
 namespace ConnectGuard {
     public class Config {
-        [JsonProperty("Enable?")]
-		public bool enabled { get; set; } = true;
         [JsonProperty("Max Attempt")]
         public int maxAttempts { get; set; } = 5;
         [JsonProperty("Lookout Time (Minute)")]
